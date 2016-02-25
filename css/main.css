@@ -1,0 +1,81 @@
+html {
+	box-sizing: border-box;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+main {
+  margin: 1em;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia;
+  color: #512200;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+  color: #512200;
+  text-decoration: none;
+}
+
+ul {
+  text-align: left;
+  text-decoration: none;
+  list-style-type: none;
+  color: #512200;
+}
+
+p {
+  color: #785439;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+.link-card {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.link-card {
+  display: inline-block;
+  margin: .5em 2em;
+  padding: .3em;
+  background-color: #dcd4cd;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #9a816d;
+  max-width: 20em;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+  border-color: #9a816d;
+}
+
+.link-card:hover .btn {
+  background-color: #785439;
+}
+
+.btn-wrap {
+  display: inline-block;
+  background-color: #785439;
+  margin: .5em 5em;
+  padding: .5em;
+  max-width: 20em;
+  border-radius: 8px;
+  color: #f0eee8;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+}
+
+
+#785439, #cabdb2, #512200, #9a816d, #dcd4cd, #f0eee8

@@ -25,16 +25,26 @@ h1 {
 	margin: 1em;
 }
 
-ul {
+li {
   list-style-type: none;
   color: #512200;
-	margin: 1em;
+	margin: 0;
+	text-align: left;
+}
+
+.italics {
+	font-style: italic;
+	color: #512200;
 }
 
 p {
   color: #785439;
   font-size: 1.125rem;
 	margin: 1em
+}
+
+.info-boxes {
+	display: block;
 }
 
 .link-card {
@@ -52,7 +62,7 @@ p {
   border-radius: 5px;
   border-width: 3px;
   border-color: #9a816d;
-  max-width: 20em;
+  max-width: 30em;
 }
 
 .link-card:hover {
